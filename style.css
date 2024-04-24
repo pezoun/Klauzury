@@ -1,0 +1,12 @@
+body{
+    background-color: #003669;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
