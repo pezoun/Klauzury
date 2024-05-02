@@ -1,12 +1,80 @@
 body{
     background-color: #003669;
+    font-family: Andale mono;
 }
-nav ul{
+@font-face {
+    font-family:Andale mono ;
+    src: url(font/andale-mono-2.zip);
+}
+.logo{
+    width: 260px;
+    height: 190px;
+}
+nav{
     width: 100%;
-    list-style: none;
+    top: 0;
+}
+ nav hr{
+  padding-top:0 ;
+  border-color: #F4C931;
+}
+ ul {
+     text-decoration: none;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-}
-nav a{
+    flex-direction: row;
+    margin-top: 0;
+  }
+  li{
+    list-style-type: none;
+  }
+  li a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+  a:after{
+    content: "";
+    position: absolute;
+    background:#F4C931;
+    height: 2px;
+    width: 0;
+    left: 2;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  a:hover:after{
+    width: 100%;
+  }
+  .logo a:hover:after{
+    width: 0%;
+  }
+  li:first-child{
+    margin-right: auto;
+  }
+  .left-nav{
+    order: 1;
+    margin-left: auto;
+  }
+  .logo{
+    order: 2;
+    margin: 0 auto;
+  }
+  .right-nav{
+    order: 3;
+    margin-right: auto;
+  }
+  a {
+    color: #FA8231;
     text-decoration: none;
-}
+    
+  }
+  
+
