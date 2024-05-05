@@ -86,14 +86,16 @@ nav{
     flex-direction: row;
   }
   .home-socials{
-    margin-top: 150px;
+    margin-top: 10em;
     padding: 10px;
   }
   .home-about{
-    margin-top: 60px;
-    margin-left: 125px;
+    margin-top: 2em;
+    margin-left: 3em;
     font-size: 28px;
     color: white;
+    display: flex;
+    flex-direction: column;
   }
   .about-box{
     font-size: 20px;
@@ -110,11 +112,35 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: center;
     color: white;
     font-size: 28px;
+    margin-top: 11em;
   }
   .skills-other h2{
     transform: rotate(90deg);
+    margin-top: 4em;
+  }
+  .icons-main{
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  .icons-other{
+    display: flex;
+    flex-direction: row;
+    margin-top:1em ;
+    margin-left:1em ;
+  }
+  .html-main,.css-main,.javascript-main{
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+  }
+  .photoshop-other,.lightroom-other,.premiere-other{
+    width: 84px;
+    height: 84px;
+    padding: 5px;
   }
   
 
