@@ -69,7 +69,7 @@ nav{
   }
   .logo{
     order: 2;
-    margin: 0 auto;
+    margin: auto;
   }
   .right-nav{
     order: 3;
@@ -116,10 +116,15 @@ nav{
     color: white;
     font-size: 28px;
     margin-top: 11em;
+    margin-left: 1em;
+  }
+  .skills-other{
+    margin-left: -4em;
+    margin-top: 3em;
   }
   .skills-other h2{
     transform: rotate(90deg);
-    margin-top: 4em;
+    margin-top: 6em;
   }
   .icons-main{
     z-index: 1000;
@@ -129,8 +134,8 @@ nav{
   .icons-other{
     display: flex;
     flex-direction: row;
-    margin-top:1em ;
-    margin-left:1em ;
+    margin-top:-14em ;
+    margin-left:12em ;
   }
   .html-main,.css-main,.javascript-main{
     width: 64px;
@@ -142,5 +147,33 @@ nav{
     height: 84px;
     padding: 5px;
   }
-  
+  .main-bar-container { 
+    background-color: white; 
+    width: 80%; 
+    border-radius: 15px; 
+    height: 29px;
+} 
+.skill-html,.skill-css,.skill-javascript { 
+  background-color: #F4C931; 
+  color: white; 
+  padding: 1%; 
+  padding-left: 10px;
+  text-align: right; 
+  font-size: 20px; 
+  border-radius: 15px; 
+  height: 24px;
+} 
+.skill-html { 
+  width: 80%; 
+} 
 
+.skill-css { 
+  width: 80%; 
+} 
+.skill-javascript{
+  width: 40%;
+}
+.main-icon-container{
+  display: flex;
+  align-items: center;
+}
