@@ -157,16 +157,13 @@ nav{
   background-color: #F4C931; 
   color: white; 
   padding: 1%; 
-  padding-left: 10px;
-  text-align: right; 
-  font-size: 20px; 
+  padding-left: 10px; 
   border-radius: 15px; 
   height: 24px;
 } 
 .skill-html { 
   width: 80%; 
 } 
-
 .skill-css { 
   width: 80%; 
 } 
@@ -176,4 +173,62 @@ nav{
 .main-icon-container{
   display: flex;
   align-items: center;
+}
+.skill-ph,.skill-lr,.skill-pr { 
+  background-color: #F4C931; 
+  color: white; 
+  padding: 1%; 
+  border-radius: 15px; 
+  height: 28px;
+} 
+.other-bar-container { 
+  background-color: white; 
+  width: 250%; 
+  border-radius: 15px; 
+  height: 33px;
+  margin-top: 4em;
+  transform: rotate(90deg);
+} 
+.other-icon-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1em;
+}
+.skill-ph { 
+  width: 80%; 
+} 
+.skill-lr { 
+  width: 80%; 
+} 
+.skill-pr{
+  width: 40%;
+}
+.skills{
+  flex-wrap:wrap ;
+}
+.project-card-img{
+  height: 20vw;
+  width: 30vw;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.left-project-card-column{
+  display: flex;
+  flex-direction: column;
+}
+.right-project-card-column{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+}
+.projects{
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+.project-container{
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
 }
