@@ -75,6 +75,7 @@ nav{
   }
   .logo{
     order: 2;
+    z-index: 1000;
     margin: auto;
   }
   .right-nav{
@@ -240,7 +241,15 @@ nav{
   justify-content: center;
 }
 .card-text{
-  z-index: -10000;
+  position: absolute;
+  color: white;
+  opacity: 0%;
+}
+.project-card:hover{
+  position: relative;
+}
+.project-card:hover::after{
+  opacity: 100%;
 }
 footer{
   width: 100%;
@@ -272,4 +281,23 @@ footer{
 }
 footer .footer-social a{
   margin: 10px;
+}
+.about-nav{
+  width: 100%;
+  top: 0;
+}
+.about-ul{
+  text-decoration: none;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0;
+}
+.about-li{
+
 }
