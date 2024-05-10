@@ -295,9 +295,36 @@ footer .footer-social a{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 0;
 }
 .about-li{
-
+  margin: auto;
+}
+.logo-about{
+  width: 260px;
+  height: 190px;
+  margin-right: 50VW;
+}
+.aboutme-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 13vh;
+}
+.aboutme-container h2,p{
+  color: white;
+}
+.aboutme-container h2{
+  font-size: 5vw;
+  margin-left: -36vw;
+  padding-bottom: 9vw;
+}
+.aboutme-container p{
+  width: 60vw;
+  
+}
+.playlist-img{
+  height: 30vh;
+  width: 30vw;
 }
