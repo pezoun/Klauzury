@@ -301,6 +301,26 @@ footer .footer-social a{
 .about-li{
   margin: auto;
 }
+.about-li a{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+.about-a:after{
+  content: "";
+  position: absolute;
+  background:#F4C931;
+  height: 2px;
+  width: 0;
+  left: 2;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.about-a:hover::after{
+  width: 100%;
+}
 .logo-about{
   width: 260px;
   height: 190px;
@@ -324,7 +344,36 @@ footer .footer-social a{
   width: 60vw;
   
 }
+.playlist-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .playlist-img{
   height: 30vh;
-  width: 30vw;
+  width: 25vw;
+  margin: auto;
+  border-radius: 5px;
+  padding-top: 20px;
+  object-fit: cover;
+}
+.playlist-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.playlist-container h1{
+  color: white;
+  font-size: 4vw;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+.playlist-container h3{
+  color: #F4C931;
+}
+.playlist-text{
+  width: 40vw;
+  padding: 50px;
 }
