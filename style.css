@@ -476,13 +476,18 @@ footer .footer-social a{
   width: 40vw;
   padding: 50px;
 }
-@media (max-width:820px){
+@media (max-width:1024px){
   html{
     scroll-snap-type: none;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .home-portrait{
-    width: 49vw;
-    height: 49vh;
+    width: 40vw;
+    height: 41vh;
     object-fit: cover;
     margin-left: -3vw;
   }
@@ -544,5 +549,52 @@ footer .footer-social a{
   .project-heading-2{
     font-size: 7vw;
     margin-left: 8vw;
+  }
+  .logo-about{
+    margin-right: 0;
+  }
+}
+@media(max-width:430px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .home{
+    flex-direction: column;
+  }
+  .home-socials{
+    display: none;
+  }
+  .home-portrait{
+    width: 88vw;
+    height: 60vh;
+    object-fit: cover;
+    margin-left: 30vw;
+  }
+  .skills{
+    margin-top: 70vh;
+    margin-left: 15vw;
+  }
+  .skills-other{
+    margin-top: 7em;
+  }
+  .project-heading{
+    margin-left: 20vw;
+    font-size:12vw;
+  }
+  .projects{ 
+    flex-direction: column;
+    gap: 0;
+  }
+  .project-container{
+    margin-left: 8vw;
+  }
+  .project-card-img{
+    height: 54vw;
+    width: 79vw;
+  }
+  footer{
+    width: 118%;
   }
 }
