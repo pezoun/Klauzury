@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Matěj Kadlčák</title>
 </head>
 <body>
@@ -42,102 +43,120 @@
     
     
     <div class="skills">
-        <div  class="skills-main">
-             <h2 id="Skills">My main field</h2>
-             <div class="icons-main">
-                <div class="main-icon-container">
-                    <img class="html-main" src="icons/icons8-html-50.png" alt="">
-                        <div class="main-bar-container">
-                                <div class="skill-html"></div>
+        <div data-aos="fade-up">
+            <div  class="skills-main">
+                <h2 id="Skills">My main field</h2>
+                <div class="icons-main">
+                   <div class="main-icon-container">
+                       <img class="html-main" src="icons/icons8-html-50.png" alt="">
+                           <div class="main-bar-container">
+                                   <div class="skill-html"></div>
+                           </div>
                         </div>
-                     </div>
-                <div class="main-icon-container">
-                    <img class="css-main" src="icons/icons8-css-64.png" alt="">
-                        <div class="main-bar-container">
-                                <div class="skill-css"></div>
-                        </div>
-                </div>
-                    <div class="main-icon-container">
-                        <img class="javascript-main" src="icons/icons8-javascript-64.png" alt="">
-                        <div class="main-bar-container">
-                            <div class="skill-javascript"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <div class="skills-other">
-            <h2>Other stuff</h2>
-            <div class="icons-other">
-                <div class="other-icon-container">
-                    <img class="photoshop-other" src="icons/icons8-photoshop-100.png" alt="">
-                        <div class="other-bar-container">
-                            <div class="skill-ph"></div>
-                        </div>
-                </div>
-                    <div class="other-icon-container">
-                        <img class="lightroom-other" src="icons/icons8-adobe-lightroom-100.png" alt="">
-                            <div class="other-bar-container">
-                                <div class="skill-lr"></div>
-                            </div>
-                    </div>
-                         <div class="other-icon-container">
-                            <img class="premiere-other" src="icons/icons8-adobe-premiere-pro-100.png" alt="">
-                                <div class="other-bar-container">
-                         <div class="skill-pr"></div>
-                    </div>
-                </div>
-            </div>
+                   <div class="main-icon-container">
+                       <img class="css-main" src="icons/icons8-css-64.png" alt="">
+                           <div class="main-bar-container">
+                                   <div class="skill-css"></div>
+                           </div>
+                   </div>
+                       <div class="main-icon-container">
+                           <img class="javascript-main" src="icons/icons8-javascript-64.png" alt="">
+                           <div class="main-bar-container">
+                               <div class="skill-javascript"></div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
         </div>
+            <div data-aos="fade-down">
+                <div class="skills-other">
+                    <h2>Other stuff</h2>
+                    <div class="icons-other">
+                        <div class="other-icon-container">
+                            <img class="photoshop-other" src="icons/icons8-photoshop-100.png" alt="">
+                                <div class="other-bar-container">
+                                    <div class="skill-ph"></div>
+                                </div>
+                        </div>
+                            <div class="other-icon-container">
+                                <img class="lightroom-other" src="icons/icons8-adobe-lightroom-100.png" alt="">
+                                    <div class="other-bar-container">
+                                        <div class="skill-lr"></div>
+                                    </div>
+                            </div>
+                                 <div class="other-icon-container">
+                                    <img class="premiere-other" src="icons/icons8-adobe-premiere-pro-100.png" alt="">
+                                        <div class="other-bar-container">
+                                 <div class="skill-pr"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
     <h1 class="project-heading" id="Projects">My projects</h1>
     <div class="project-container">
         <div class="projects">
             <div class="left-project-card-column">
-                <div class="project-card">
-                    <img  class="project-card-img" src="images/random bass generator.png" alt="">
-                        <div class="project-card-text">
-                            <a target="_blank" href="https://github.com/pezoun/Bass-note-generator"><h4>Random bass generator</h4></a>
-                            <p>This is a project that i helped with a little.</p>
-                        <div class="project-card-language-bar-container">
-                            <p>Html</p>
-                            <p>Css</p>
-                            <p>Javascript</p>
+                <div data-aos="fade-right">
+                    <div class="project-card">
+                        <img  class="project-card-img" src="images/random bass generator.png" alt="">
+                            <div class="project-card-text">
+                                <a target="_blank" href="https://github.com/pezoun/Bass-note-generator"><h4>Random bass generator</h4></a>
+                                <p>This is a project that i helped with a little.</p>
+                            <div class="project-card-language-bar-container">
+                                <p>Html</p>
+                                <p>Css</p>
+                                <p>Javascript</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img class="project-card-img" src="images/Monster-site.png" alt="">
-                    <div class="project-card-text"><a target="_blank" href="https://github.com/pezoun/monster-energy-school-project"><h4>Monster energy site</h4></a>
-                        
-                        <p>My school project for some homework.</p>
-                        <div class="project-card-language-bar-container">
-                            <p>Html</p>
-                            <p>Css</p>
+                <div data-aos="fade-right">
+                    <div class="project-card">
+                        <img class="project-card-img" src="images/Monster-site.png" alt="">
+                        <div class="project-card-text"><a target="_blank" href="https://github.com/pezoun/monster-energy-school-project"><h4>Monster energy site</h4></a>
+                            
+                            <p>My school project for some homework.</p>
+                            <div class="project-card-language-bar-container">
+                                <p>Html</p>
+                                <p>Css</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="right-project-card-column">
-                <div class="project-card">
-                    <img class="project-card-img" src="images/Cyber war.png" alt="">
-                    <div class="project-card-text">
-                        <h4>Cyber war</h4>
-                        <p>This was our photoshop final project.</p>
-                        <div class="project-card-language-bar-container">
-                            <p>Photoshop</p>
+                <div data-aos="fade-left">
+                    <div class="project-card">
+                        <a href="https://github.com/pezoun/JS-clock"><img class="project-card-img" src="images/Js-clock.png" alt=""></a>
+                        <div class="project-card-text">
+                            <a target="_blank" href="https://github.com/pezoun/JS-clock"><h4>Javascript clock</h4></a>
+                            <p>One of many of my thing that I used in my talent tests</p>
+                            <div class="project-card-language-bar-container">
+                                <p>Html</p>
+                                <p>Css</p>
+                                <p>JS</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+               <div data-aos="fade-left">
                 <div class="project-card">
                     <img class="project-card-img" src="images/Python.png" alt="">
                     <div class="project-card-text">
                         <a target="_blank" href="https://github.com/pezoun/Py-password-generator"><h4>Random password generator</h4></a>
                         <p>THis was another thing I did for talent tests, really basic.</p>
                         <div class="project-card-language-bar-container">
-                            <p>Python</p>
+                                <p>Python</p>
+
+                        </div>
+                        <div class="project-card-link">
+                            <p>Code here</p>
                         </div>
                     </div>
                 </div>
+               </div>
             </div>
         </div>
     </div>
@@ -157,5 +176,9 @@
                 <a href="">discord</a>
             </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
