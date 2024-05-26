@@ -464,6 +464,7 @@ footer .footer-social a {
 }
 .aboutme-container p {
   width: 60vw;
+  font-size: 1.5vw;
 }
 .playlist-child {
   display: flex;
@@ -497,6 +498,11 @@ footer .footer-social a {
 .playlist-text {
   width: 40vw;
   padding: 50px;
+}
+@media(min-width:1600px){
+  .home-portrait{
+    margin-left:12vw ;
+  }
 }
 @media (max-width: 1025px) {
   html {
@@ -761,6 +767,10 @@ footer .footer-social a {
   .skills-main{
     margin-top: 25vh;
   }
+  .project-heading-2{
+    font-size: 10vw;
+    margin-bottom: 50vh;
+  }
   .project-heading{
     font-size: 10vw;
     margin-top: 15vh;
@@ -772,6 +782,17 @@ footer .footer-social a {
     gap: 0vh;
     margin-top: 20vh;
     margin-bottom: 10vh;
+  }
+  .project-card-text{
+    font-size: 3vw;
+    padding: 10px;
+  }
+  .project-card-text h4{
+    font-size: 4vw;
+  }
+  .project-card-img{
+    height: 33vw;
+    width: 43vw;
   }
   footer{
     flex-direction: column;
@@ -815,7 +836,9 @@ footer .footer-social a {
     font-size: 10vw;
   }
   .project-container{
-    margin-bottom: 35vh
+    margin-bottom: 63vh;
+    margin-top: 35vh;
+
   }
   .right-project-card-column{
     margin-top: 0vh;
