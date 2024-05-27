@@ -4,6 +4,10 @@
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=1">
     <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Projects</title>
 </head>
@@ -15,7 +19,10 @@
         </ul>
         <hr>
     </nav>
-    <h2 class="project-heading-2" id="Projects">All of the projects</h2>
+    <div class="project-heading-container">
+        <h2 class="project-heading-2" id="Projects">All of the projects</h2>
+        <p>Scroll down</p>
+    </div>
     <div class="project-container">
         <div class="projects">
             <div class="left-project-card-column">
@@ -23,12 +30,10 @@
                     <div class="project-card">
                         <img  class="project-card-img" src="images/Macbook air - Kadlčák.png" alt="">
                             <div class="project-card-text">
-                                <a target="_blank" href="https://github.com/pezoun/Bass-note-generator"><h4>Random bass generator</h4></a>
-                                <p>This is a project that i helped with a little.</p>
+                            <h4>Macbook product photo</h4>
+                            <p>We were assigned to take a picture of some tech thing and make it look like it is from a commercial</p>
                             <div class="project-card-language-bar-container">
-                                <p>Html</p>
-                                <p>Css</p>
-                                <p>JS</p>
+                               <p>photo</p>
                             </div>
                         </div>
                     </div>
@@ -37,11 +42,10 @@
                     <div class="project-card">
                         <img class="project-card-img" src="images/IMG_9415.jpg" alt="">
                         <div class="project-card-text">
-                            <a target="_blank" href="https://github.com/pezoun/monster-energy-school-project"><h4>Monster energy site</h4></a>
-                            <p>My school project for some homework.</p>
+                        <h4>Macro photo</h4>
+                            <p>Another photo from the macro pic category</p>
                             <div class="project-card-language-bar-container">
-                                <p>Html</p>
-                                <p>Css</p>
+                                <p>Photo</p>
                             </div>
                         </div>
                     </div>
@@ -49,13 +53,15 @@
                 <div data-aos="fade-left">
                     <div class="project-card">
                         <img class="project-card-img" src="images/Objektiv-makro 1 (1).png" alt="">
-                        <div class="project-card-text">
-                            <a href="images/Objektiv-makro 1 (1).png"></a><h4>Macro photography</h4>
-                            <p>We were taking this picture in our school photo studio with a Sony camera from really close</p>
-                            <div class="project-card-language-bar-container">
-                                <p>Photo</p>
+                        <a target="_blank" href="images/Objektiv-makro 1 (1).png">
+                            <div class="project-card-text">
+                                <h4>Macro photography</h4>
+                                <p>We were taking this picture in our school photo studio with a Sony camera from really close</p>
+                                <div class="project-card-language-bar-container">
+                                    <p>Photo</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div> 
             </div>
@@ -63,13 +69,15 @@
                 <div data-aos="fade-right">
                     <div class="project-card">
                         <img class="project-card-img" src="images/Cyber war.png" alt="">
-                        <div class="project-card-text">
-                            <h4>Cyber war</h4>
-                            <p>This was our photoshop final project.</p>
-                            <div class="project-card-language-bar-container">
-                                <p>Photoshop</p>
+                        <a target="_blank" href="images/Cyber war.png">
+                            <div class="project-card-text">
+                                <h4>Cyber war</h4>
+                                <p>This was our photoshop final project.</p>
+                                <div class="project-card-language-bar-container">
+                                    <p>Photoshop</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-right">
@@ -100,5 +108,14 @@
                <a href="">discord</a>
        </div>
        </footer>
+       <div class="footer-mentions">
+        <p>Images provided by me and <a href="https://unsplash.com">Unsplash</a></p>
+        <p>Artwork done by <a href="https://www.instagram.com/jirivojta.art/">Jiří Vojta</a></p>
+        <p>Icons by <a href="https://icons8.com">Icons8</a></p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
