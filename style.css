@@ -17,10 +17,6 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-@font-face {
-  font-family: Andale mono;
-  src: url(font/andale-mono-2.zip);
-}
 .top, .skills {
   scroll-snap-align: start;
 }
@@ -307,7 +303,7 @@ li:first-child {
   width: 100%;
   height: 100%;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(8, 5, 5, 0.7);
   color: #fff;
   text-align: center;
   opacity: 0;
@@ -468,6 +464,11 @@ footer .footer-social a {
   width: 60vw;
   font-size: 1.5vw;
 }
+.aboutme-photo{
+  width: 30vw;
+  border-radius: 10px;
+  margin-top: 2vh;
+}
 .playlist-child {
   display: flex;
   flex-direction: row;
@@ -537,6 +538,9 @@ footer .footer-social a {
   .about-li a{
     font-size: 30px;
   }
+  .aboutme-photo{
+    width: 40vw;
+  }
   .home-portrait{
     width: 35vw;
     height: 60vh;
@@ -593,7 +597,7 @@ footer .footer-social a {
     overflow-x: hidden;
     min-width: fit-content;
     width: 100%;
-    overflow-x: hidden;
+
   }
   nav hr{
     margin-top: 2vh;
@@ -719,7 +723,9 @@ footer .footer-social a {
   .skills-other{
     margin-top: 35vh;
   }
-
+  .aboutme-photo{
+    width: 60vw;
+  }
   .skills-main{
     margin-top: 25vh;
   }
@@ -735,6 +741,10 @@ footer .footer-social a {
   .project-heading-container p{
     margin-top: -45vh;
   }
+  .home-about{
+    margin-left: -2vw;
+    
+  }
   .projects{
     transform: scale(200%);
     flex-direction: column;
@@ -747,7 +757,7 @@ footer .footer-social a {
     padding: 10px;
   }
   .project-card-text h4{
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .project-card-img{
     height: 33vw;
@@ -798,6 +808,7 @@ footer .footer-social a {
   .playlist-container h1{
     font-size: 10vw;
   }
+  
   .project-container{
     margin-bottom: 63vh;
     margin-top: 80vh;
